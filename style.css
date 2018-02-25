@@ -1,0 +1,102 @@
+/*
+Theme Name: ZenPress Child
+Theme URI: https://github.com/pfefferle/ZenPress
+Author: Jeremy Cherfas
+Author URI: http://jeremycherfas.net/
+Template: zenpress
+Description: Pure Zen
+Version: 1.1.2
+License: GNU General Public License Version 3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: white, gray, light, black, custom-menu, custom-colors, custom-header, custom-background, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats, threaded-comments, flexible-width, right-sidebar, two-columns, one-column, editor-style, featured-images, theme-options
+
+Text Domain: zenpress-child
+
+This is my child theme for the ZenPress theme (http://wordpress.org/themes/zenpress)
+and, like WordPress, licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+.site-header #site-title {
+  margin-top: 0;
+  font-size: 2.441em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em;
+}
+
+h2 {
+	font-size: 1.953em;
+}
+
+h3 {font-size: 1.563em;}
+
+h4 {font-size: 1.25em;}
+
+small, .font_small {font-size: 0.8em;}
+
+h2, h3 {
+color: #f68b1f;
+}
+
+.wp-caption-text {
+	margin-bottom: 1.6em;
+	}
+
+sub, sup {
+	font-size: 90%;
+	}
+
+#primary .post .entry-header .entry-title a {
+	Font-size: 1.953em;
+}
+
+#primary .page .entry-header .entry-title a {
+	Font-size: 1.953em;
+}
+
+blockquote {
+	font-size: 1em;
+}
+
+a:hover {
+    background-color: #fef1e3;
+}
+
+#primary .post .entry-content, #primary .post .entry-summary, #primary .page .entry-content, #primary .page .entry-summary {
+	color: rgba(0, 0, 0, 0.7);
+	font-style: normal; 
+
+}
+
+
+#primary .post .tag-links li a:hover, #primary .post .cat-links li a:hover, #primary .page .tag-links li a:hover, #primary .page .cat-links li a:hover {
+ background-color: #fef1e3; color: #40531e; 
+ } <-- pale orange hover from http://www.colorsontheweb.com/Color-Tools/Color-Wizard -->
+ 
+address.byline {
+display: none;
+}
+
+address {
+	display: none;
+	}
