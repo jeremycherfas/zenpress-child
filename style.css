@@ -4,7 +4,7 @@ Theme URI: https://github.com/pfefferle/ZenPress
 Author: Jeremy Cherfas
 Author URI: http://jeremycherfas.net/
 Template: zenpress
-Version: 2.0.6
+Version: 2.0.8
 Text Domain: zenpress-child
 
 This is my child theme for the ZenPress theme (https://github.com/pfefferle/ZenPress)
@@ -152,5 +152,9 @@ hr {
 	width: 30%;
 	}
 	
-/* Banner photos must be, what size */
+/* Banner photos must be 1024 x 350 */
 
+.site-header .page-banner {
+	height: 20vh;
+	max-height: 20%;
+	}
