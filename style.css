@@ -155,6 +155,7 @@ hr {
 /* Banner photos must be 1024 x 350 */
 
 .site-header .page-banner {
+	:background-color: transparent: !important
 	height: 20vh;
 	max-height: 20%;
 	}
